@@ -66,7 +66,7 @@ llm = HuggingFaceEndpoint(repo_id=repo_id, token="hf_feJRyYlxdBghUqFFbTmFNruXeUy
 
 
 
-pip install -U bitsandbytes
+##pip install -U bitsandbytes
 
 llm = LlamaCpp(
     model_path="/content/drive/MyDrive/10thbook/Mistral-7B-Instruct-v0.3.Q4_K_S.gguf",
